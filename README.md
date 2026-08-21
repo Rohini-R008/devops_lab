@@ -1,5 +1,4 @@
 ﻿# devops_lab
-# rohini
-# first class
+
 
 Assignment 1: Portfolio link - https://rohini-r008.github.io/Portfolio/
