@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohini R · Portfolio</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="portfolio">
+
+    <!-- ===== HEADER ===== -->
+    <div class="header">
+      <div class="name-title">
+        <h1>Rohini R</h1>
+        <span class="badge"><i class="fas fa-graduation-cap" style="margin-right: 6px;"></i>B.E. Information Science · 2027</span>
+      </div>
+      <div class="header-actions">
+        <div class="contact-links">
+          <a href="#"><i class="fab fa-github"></i> github</a>
+          <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+          <a href="#"><i class="fas fa-envelope"></i> email</a>
+        </div>
+        <!-- Dark mode toggle button -->
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- ===== MAIN GRID ===== -->
+    <div class="grid-2col">
+
+      <!-- LEFT COLUMN -->
+      <div class="left-panel">
+
+        <!-- Education -->
+        <div>
+          <div class="section-title"><i class="fas fa-university"></i> Education</div>
+          <div class="edu-item">
+            <h4>BMS College of Engineering</h4>
+            <div class="meta">B.E. Information Science &amp; Engineering · 2023–2027</div>
+            <span class="score">CGPA: 9.1</span>
+          </div>
+          <div class="edu-item">
+            <h4>Vidya Mandir IND PU College</h4>
+            <div class="meta">12th State Board · 2021–2023</div>
+            <span class="score">95%</span>
+          </div>
+          <div class="edu-item">
+            <h4>B.P. Indian Public School</h4>
+            <div class="meta">10th ICSE · 2021</div>
+            <span class="score">95%</span>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div>
+          <div class="section-title"><i class="fas fa-code"></i> Technical Skills</div>
+
+          <div class="skill-category">
+            <strong>Languages</strong>
+            <div class="skill-tags">
+              <span class="skill-tag">C++</span><span class="skill-tag">Java</span><span class="skill-tag">Python</span>
+              <span class="skill-tag">JavaScript</span><span class="skill-tag">Node.js</span><span class="skill-tag">React.js</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <strong>Databases &amp; Tools</strong>
+            <div class="skill-tags">
+              <span class="skill-tag">SQL</span><span class="skill-tag">NoSQL</span><span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Thunder Client</span><span class="skill-tag">Postman</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <strong>Core CS</strong>
+            <div class="skill-tags">
+              <span class="skill-tag">DSA</span><span class="skill-tag">CN</span><span class="skill-tag">OS</span>
+              <span class="skill-tag">DBMS</span><span class="skill-tag">ML</span><span class="skill-tag">Computer Arch.</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <strong>Web &amp; Tools</strong>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML</span><span class="skill-tag">CSS</span><span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span><span class="skill-tag">Android Studio</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <strong>Domain of Interest</strong>
+            <div>
+              <span class="domain-badge">Cybersecurity</span>
+              <span class="domain-badge">Full Stack Development</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <strong>Languages</strong>
+            <div>
+              <span class="lang-item">English</span>
+              <span class="lang-item">Kannada</span>
+              <span class="lang-item">Hindi</span>
+              <span class="lang-item">Japanese <span style="font-weight:300; font-size:0.7rem;">(Beginner)</span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div>
+          <div class="section-title"><i class="fas fa-certificate"></i> Certifications</div>
+          <div class="cert-item">
+            <i class="fab fa-google"></i> Google Cybersecurity · Coursera
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="right-panel">
+
+        <div>
+          <div class="section-title"><i class="fas fa-folder-open"></i> Projects</div>
+
+          <!-- Project 1 -->
+          <div class="project-card">
+            <h3>
+              Workout Tracker Application
+              <span class="stack">MERN · JWT</span>
+            </h3>
+            <ul>
+              <li>Full-stack MERN app with CRUD operations for workout sessions.</li>
+              <li>JWT authentication, protected routes, middleware-based authorization.</li>
+              <li>RESTful APIs with Express + Node, MongoDB via Mongoose.</li>
+              <li>React frontend: React Router, Context API, custom hooks for auth &amp; data.</li>
+            </ul>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <h3>
+              College Portal &amp; Performance Prediction
+              <span class="stack">Python · ML · SQLite</span>
+            </h3>
+            <ul>
+              <li>College management portal for student records, attendance, academics.</li>
+              <li>ML model with Scikit-learn to predict student performance.</li>
+              <li>Data processing with Pandas &amp; NumPy, SQLite for persistent storage.</li>
+              <li>Modular Python code with functions/classes for scalability.</li>
+            </ul>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <h3>
+              MediQuick Website
+              <span class="stack">HTML · CSS · JS · MySQL</span>
+            </h3>
+            <ul>
+              <li>Web app for online medicine ordering &amp; doctor appointment scheduling.</li>
+              <li>User-friendly interface for patients to browse medicines and book appointments.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Extra interest box -->
+        <div class="interest-box">
+          <div style="display: flex; gap: 0.8rem; flex-wrap: wrap; align-items: center;">
+            <span class="interest-pill"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+            <span class="interest-pill"><i class="fas fa-robot"></i> ML · AI</span>
+            <span style="color: #1e4a6a;"><i class="fas fa-bolt"></i> Full‑stack · MERN</span>
+          </div>
+          <p style="margin-top: 0.6rem; font-size: 0.9rem; color: #1a3852;">
+            <i class="fas fa-circle" style="color: #2a7ab0; font-size: 0.4rem; vertical-align: middle; margin-right: 4px;"></i>
+            Passionate about secure systems and intelligent applications.
+          </p>
+        </div>
+
+      </div> <!-- right-panel -->
+    </div> <!-- grid-2col -->
+
+    <hr style="margin-top: 2rem; border-color: #dde6f0;" />
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: #3b5b7a; padding-top: 0.2rem;">
+      <span><i class="far fa-copyright"></i> Rohini R · Portfolio</span>
+    </div>
+  </div> <!-- portfolio -->
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
